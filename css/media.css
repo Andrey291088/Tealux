@@ -1,0 +1,501 @@
+@media (max-width: 1000px) {
+  .user_actions_serch {
+    margin-left: 30px;
+  }
+  .navigate_menu {
+    margin-right: auto;
+  }
+  .navigate_menu_list {
+    margin-left: 60px;
+  }
+
+  .header_inner {
+    min-height: auto;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+  .blockquote {
+    margin-top: 120px;
+    margin-bottom: 135px;
+  }
+  .main_collections_tea {
+    margin-bottom: 120px;
+  }
+  .main_catalog_tea {
+    gap: 0;
+  }
+
+  .rewies_feedback_item:last-child {
+    display: none;
+  }
+
+  .tea_blog {
+    padding: 120px 0;
+  }
+  .tea_blog_list_image {
+    max-width: 230px;
+  }
+
+  .tea_blog_list_item {
+    flex-basis: 460px;
+  }
+
+  .tea_blog_list {
+    gap: 67px 20px;
+    margin-top: 60px;
+  }
+  .user_mail {
+    padding: 60px 0;
+  }
+  .user_mail_inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user_mail_title {
+    text-align: center;
+  }
+
+  .user_mail_text {
+    text-align: center;
+    flex-basis: 780px;
+  }
+
+  .prioritise {
+    padding: 120px 0;
+  }
+
+  .prioritise_list {
+    gap: 30px 210px;
+  }
+
+  .footer_company_text {
+    width: 270px;
+  }
+  .footer_company_blockquote {
+    margin-top: 0;
+  }
+
+  .footer_inner {
+    margin-bottom: 55px;
+  }
+
+  .footer_bottom_coperite {
+    margin-right: 75px;
+  }
+
+  .footer_contacts_list_logo {
+    margin-right: 36px;
+  }
+
+  .footer_contacts {
+    width: 270px;
+  }
+}
+
+@media (max-width: 860px) {
+  .navigate_menu {
+    order: -1;
+    margin-right: 0;
+  }
+
+  .logo {
+    margin-left: auto;
+    margin-right: 154px;
+  }
+
+  .navigate_menu_list {
+    transform: translateY(-100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    transition: transform 0.6s ease;
+  }
+
+  .navigate_menu_close_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .navigate_menu_item {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Cormorant", serif;
+  }
+
+  .navigate_menu_mobile_nav,
+  .navigate_menu_close {
+    display: block;
+  }
+
+  .navigate_menu_mobile_menu_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 60px;
+    background-color: #f7f2ea;
+  }
+
+  .navigate_menu_mobile_menu_item {
+    margin-bottom: 35px;
+  }
+
+  .navigate_menu_btn {
+    display: flex;
+  }
+
+  .navigate_menu_mobile_menu {
+    padding-top: 60px;
+    margin: 60px 30px;
+    border-top: 2px solid #f7f2ea;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_inner {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .blockquote {
+    max-width: 640px;
+  }
+  .main_catalog_tea {
+    gap: 0 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rewies_feedback_item:last-child {
+    display: block;
+  }
+
+  .rewies_feedback {
+    flex-wrap: wrap;
+    gap: 30px 76px;
+  }
+
+  .tea_blog_list_item {
+    flex-basis: 542px;
+  }
+
+  .tea_blog_list_item:nth-child(even) {
+    margin-left: 98px;
+  }
+
+  .tea_blog_list_image {
+    max-width: 270px;
+  }
+  .tea_blog_list {
+    gap: 30px 20px;
+  }
+  .user_mail_text {
+    flex-basis: 640px;
+  }
+
+  .prioritise_list {
+    gap: 30px 133px;
+  }
+
+  .footer_inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 70px;
+  }
+
+  .footer_list,
+  .footer_company {
+    grid-row: span 3;
+  }
+
+  .footer_contacts {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .footer_bottom_coperite {
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header_inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main_top_inner_title {
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .blockquote {
+    max-width: 376px;
+    margin: 60px auto;
+  }
+  .blockquote_text {
+    font-size: 16px;
+  }
+
+  .rewies_feedback_item {
+    flex-basis: 220px;
+  }
+  .tea_blog_list_item:nth-child(even) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    margin-right: 80px;
+  }
+
+  .logo img {
+    width: 39px;
+  }
+  .blockquote {
+    margin-right: 54px;
+    margin-left: 50px;
+  }
+
+  .navigate_menu_list {
+    width: 360px;
+  }
+  .main_collections_tea {
+    margin-bottom: 60px;
+  }
+
+  .main_catalog_tea {
+    gap: 0;
+  }
+
+  .main_catalog_item {
+    max-width: 170px;
+  }
+
+  .rewies {
+    padding: 50px 0;
+  }
+
+  .rewies_feedback {
+    gap: 30px 20px;
+  }
+
+  .tea_blog {
+    padding: 60px 0;
+  }
+
+  .tea_blog_list_image {
+    max-width: 230px;
+  }
+
+  .user_mail {
+    padding: 50px 0;
+  }
+
+  .user_mail_text {
+    flex-basis: 100%;
+    font-size: 13px;
+  }
+
+  .user_mail_inner {
+    gap: 30px 0;
+  }
+
+  .email_input {
+    width: 324px;
+    margin-right: 20px;
+  }
+
+  .user_mail_btn {
+    padding: 10px 32px;
+  }
+
+  .prioritise {
+    padding: 60px 0;
+  }
+
+  .footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer_company_text {
+    width: 100%;
+  }
+  .footer_company_blockquote {
+    margin-bottom: 10px;
+  }
+  .footer_contacts {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .footer_contacts_title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer_contacts_text {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .footer_contacts_list {
+    flex-wrap: nowrap;
+  }
+
+  .footer_social {
+    margin-left: 30px;
+  }
+
+  .footer_bottom_coperite {
+    margin-right: auto;
+  }
+
+  .footer_list {
+    margin-right: auto;
+    padding-right: 20px;
+  }
+
+  .footer_company {
+    padding-right: 20px;
+    margin-right: 55px;
+  }
+
+  .footer_list,
+  .footer_company {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    padding: 50px 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .header_inner {
+    margin: 10px 0;
+  }
+
+  .main_top_inner {
+    min-height: 359px;
+  }
+
+  .main_top_inner_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .main_top_inner_text {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    margin-right: 50px;
+  }
+
+  .user_actions_serch {
+    margin-left: 0;
+  }
+
+  .blockquote {
+    margin: 70px 10px 80px;
+    max-width: 340px;
+  }
+
+  .main_collections_tea {
+    margin-bottom: 80px;
+  }
+
+  .rewies_feedback_item {
+    flex-basis: 100%;
+  }
+
+  .rewies_feedback_item:last-child,
+  .rewies_feedback_item:first-child {
+    display: none;
+  }
+
+  .tea_blog {
+    padding: 50px 0;
+  }
+  .tea_blog_list_item {
+    display: block;
+    max-width: 270px;
+  }
+
+  .tea_blog_list_image {
+    max-width: 100%;
+  }
+
+  .tea_blog_list_item:nth-child(even) {
+    display: none;
+  }
+  .tea_blog_list {
+    justify-content: center;
+  }
+
+  .tea_blog_list_item_title {
+    min-height: auto;
+  }
+  .email_input {
+    width: 204px;
+  }
+
+  .prioritise {
+    padding: 50px 0;
+  }
+
+  .prioritise_list_item_title {
+    font-size: 20px;
+  }
+
+  .prioritise_list_item_text {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .prioritise_list {
+    gap: 40px 100px;
+  }
+
+  .footer_company {
+    padding-right: 15px;
+    margin-right: 0;
+  }
+
+  .footer_list {
+    padding-right: 10px;
+  }
+  .footer_contacts_list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer_inner {
+    gap: 0 25px;
+  }
+
+  .footer_social {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
